@@ -7,4 +7,4 @@ def home():
     return jsonify({'message': 'Hello, Kubernetes! change 10th on 28-dec-2025'})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=21000) #prod will run on 25k
+    app.run(host='0.0.0.0', port=21000) 
